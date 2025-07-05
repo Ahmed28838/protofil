@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-family: serif;
+    color: white;
+}
+.back-ground {
+    background-image: linear-gradient(to right,#01022de5,#00000088)
+    , url("تنزيل.webp");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.article {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px;
+    z-index: 2;
+}
+.article a {
+    text-decoration: none;
+    font-size: 40px;
+}
+.article a:hover{
+    color: blue;
+    font-size: 50px; 
+}
